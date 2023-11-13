@@ -1,9 +1,9 @@
-import React from "react";
+import * as S from "./styles";
 
 export default function Header() {
   return (
-    <header>
-      <h1>Meu Site</h1>
-    </header>
+    <S.Wrapper>
+      <h1>Boilerplate Maroto</h1>
+    </S.Wrapper>
   );
 }

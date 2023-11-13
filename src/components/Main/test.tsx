@@ -7,7 +7,7 @@ describe("<Header />", () => {
     render(<Header />);
 
     expect(
-      screen.getByRole("heading", { name: /Meu Site/i }),
+      screen.getByRole("heading", { name: /Boilerplate Maroto/i }),
     ).toBeInTheDocument(); // use the toBeInTheDocument matcher
   });
 });
