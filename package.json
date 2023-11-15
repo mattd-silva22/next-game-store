@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.23.2",
+    "@storybook/addon-themes": "^7.5.3",
     "@types/node": "20.6.2",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
@@ -63,6 +64,9 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "resolutions": {
+      "jackspeak": "2.1.1"
     }
   }
 }
