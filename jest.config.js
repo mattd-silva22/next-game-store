@@ -11,6 +11,7 @@ module.exports = {
     "!src/providers/**",
     "!src/styles/**",
   ],
+  extensionsToTreatAsEsm: [".ts"],
   setupFilesAfterEnv: ["<rootDir>/.jest/jest-setup.ts"],
   modulePaths: ["<rootDir>/src/"],
   transform: {
