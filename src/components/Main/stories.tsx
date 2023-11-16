@@ -8,6 +8,7 @@ export default {
   args: {
     title: "Teste Storybook",
     description: "Default description",
+    text: "Default text",
     parameters: {
       layout: "fullscreen",
     },

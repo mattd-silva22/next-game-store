@@ -1,9 +1,17 @@
 import * as S from "./styles";
 
-export default function Header() {
+export type MainProps = {
+  title?: string;
+  description?: string;
+  text?: string;
+};
+export default function Main(props: MainProps) {
+  const { title, description, text } = props;
   return (
     <S.Wrapper>
-      <h1>Boilerplate Maroto</h1>
+      <S.Title>{title}</S.Title>
+      <S.Description>{description}</S.Description>
+      <S.Text>{text}</S.Text>
     </S.Wrapper>
   );
 }
